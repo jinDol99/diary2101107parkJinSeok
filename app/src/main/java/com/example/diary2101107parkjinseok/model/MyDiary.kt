@@ -4,8 +4,8 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 
 @Entity
-data class MyList {
+data class MyDiary(
     @PrimaryKey (autoGenerate = true) val rid:Int,
-    val food:String,
+    val title:String,
     val time:String
-}
+)
