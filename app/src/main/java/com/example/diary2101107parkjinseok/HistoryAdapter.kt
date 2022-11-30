@@ -27,6 +27,6 @@ class HistoryAdapter: RecyclerView.Adapter<HistoryAdapter.HistoryViewHolder>() {
     }
     class HistoryViewHolder(v: View): RecyclerView.ViewHolder(v){
         val textViewTime: TextView = v.findViewById(R.id.textViewTime)
-        val textViewFood:TextView = v.findViewById(R.id.textViewFood)
+        val textViewFood:TextView = v.findViewById(R.id.textViewTitle)
     }
 }
