@@ -7,5 +7,6 @@ import androidx.room.PrimaryKey
 data class MyDiary(
     @PrimaryKey (autoGenerate = true) val rid:Int,
     val title:String,
+    val content:String,
     val time:String
 )

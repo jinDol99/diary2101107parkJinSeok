@@ -34,6 +34,7 @@ class DiaryAdapter : RecyclerView.Adapter<DiaryAdapter.DiaryViewHolder>() {
         return data.size
     }
 
+    // RecyclerView에 사용될
     class DiaryViewHolder(v: View): RecyclerView.ViewHolder(v){
         val textViewTime: TextView = v.findViewById(R.id.textViewTime)
         val textViewTitle: TextView = v.findViewById(R.id.textViewTitle)
